@@ -1,0 +1,506 @@
+
+
+@media (max-width: 1339px) {
+    .idc-section {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .idc-container {
+        max-width: 930px;
+    }
+    .idc-title-1 {
+        font-size: 90px;
+        line-height: 109px;
+    }
+
+    /* *************head************ */
+    .idc-head .idc-container {
+        padding-bottom: 138px;
+    }
+    .idc-head .idc-title-1 {
+        margin-top: 80px;
+    }
+    .idc-head .idc-text-1 {
+        margin-top: 30px;
+    }
+    /* ************about************ */
+    .idc-about .idc-container {
+        padding-top: 130px;
+        padding-bottom: 130px;
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
+    }
+    .idc-swiper-block {
+        width: 100%;
+        margin-top: 70px;
+    }
+    .swiper-slide {
+        height: 930px;
+    }
+    .idc-about-info {
+        max-width: unset;
+        margin-left: 0;
+    }
+
+    /* *************counts*************/
+
+    .idc-counts .idc-container {
+        padding-top: 70px;
+        padding-bottom: 130px;
+    }
+    .idc-count {
+        width: calc(50% - 90px);
+        margin-left: auto;
+        margin-top: 60px;
+    }
+    .idc-count:nth-child(4) {
+        margin-left: auto;
+    }
+    .idc-count:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    /* *************pluses************ */
+    .idc-pluses .idc-container {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .idc-pluses-block {
+        margin-top: 10px;
+    }
+    .idc-pluse {
+        width: 261px;
+    }
+    .idc-pluse .idc-text-3b {
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+    }
+    /* *************location************ */
+    .idc-location .idc-container {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .idc-location .idc-bg-wrapper {
+        background-image: url(../img/map-bg2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* *************story ************ */
+    .idc-achives .idc-container {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .idc-achive {
+        margin-left: 180px;
+    }
+    .idc-achive:last-child {
+        margin-left: 0;
+        margin-top: 45px;
+    }
+    /* *************footer************ */
+}
+@media (max-width: 1019px) {
+    .idc-container {
+        max-width: 610px;
+    }
+    .idc-title-1 {
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .idc-title-2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .idc-text-1 {
+        font-size: 25px;
+        line-height: 130%;
+    }
+    .idc-text-2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .idc-text-3 {
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .idc-text-4 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .idc-text-5 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    /* *************head************ */
+    .idc-head .idc-container {
+        padding-top: 40px;
+        padding-bottom: 110px;
+    }
+    .idc-logo-block {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .idc-logo {
+        width: 72px;
+    }
+    .idc-logo-block .idc-text-5 {
+        margin-left: 15px;
+        padding-bottom: 0;
+    }
+    .idc-head .idc-title-1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-top: 60px;
+    }
+    .idc-head .idc-text-1 {
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    /* ************about************ */
+    .idc-about .idc-container {
+        padding-top: 65px;
+        padding-bottom: 100px;
+    }
+    .idc-about .idc-title-2 + .idc-text-4 {
+        margin-top: 45px;
+    }
+    .idc-button-wrapper {
+        margin-top: 35px;
+    }
+    .idc-button {
+        padding: 8px 32px 8px 16px;
+        font-size: 14px;
+        line-height: 17px;
+        border-radius: 5px;
+    }
+    .idc-swiper-block {
+        margin-top: 50px;
+    }
+    .swiper-slide {
+        height: 610px;
+    }
+    .idc-slider-btns {
+        display: none;
+    }
+    .idc-swiper-pagination {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .idc-swiper .swiper-pagination-bullet {
+        background: #ffffff;
+        width: 15px;
+        height: 15px;
+        border: 2px solid #2467a4;
+        opacity: 1;
+    }
+    .idc-swiper .swiper-pagination-bullet-active {
+        background: #2467a4;
+    }
+    /* ************counts*********** */
+    .idc-counts .idc-container {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    .idc-count {
+        width: 282px;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+    /* *************pluses************ */
+    .idc-pluses .idc-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .idc-pluses-block {
+        margin-top: 15px;
+    }
+    .idc-pluse {
+        width: calc(50% - 44px);
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .idc-pluse .idc-icon {
+        width: 40px;
+    }
+    .idc-pluse:nth-child(3),
+    .idc-pluse:nth-child(6),
+    .idc-pluse:nth-child(9),
+    .idc-pluse:nth-child(2),
+    .idc-pluse:nth-child(5),
+    .idc-pluse:nth-child(8) {
+        margin-left: 0;
+    }
+    .idc-pluse:nth-child(2n) {
+        margin-left: auto;
+    }
+    /* *************location************ */
+    .idc-location .idc-bg-wrapper {
+        background-image: url(../img/map-bg3.png);
+        background-size: cover;
+    }
+    .idc-location .idc-container {
+        padding-top: 100px;
+        padding-bottom: 0;
+        height: 1410px;
+    }
+    .idc-location .idc-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .idc-cities {
+        max-height: 600px;
+    }
+    /* *************achives ************ */
+    .idc-achives .idc-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .idc-achives-block {
+        margin-top: 30px;
+    }
+    .idc-achive {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .idc-achive:last-child {
+        margin-top: 25px;
+    }
+    .idc-achive .idc-text-3b {
+        max-width: 375px;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    /* *************footer************ */
+    .idc-footer-img {
+        width: 412px;
+    }
+}
+@media (max-width: 699px) {
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .idc-title-1 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .idc-title-2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .idc-text-1 {
+        font-size: 20px;
+        line-height: 130%;
+    }
+    .idc-text-2 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .idc-text-3 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .idc-text-3b {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-text-4 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .idc-text-5 {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    /* *************head************ */
+    .idc-head .idc-container {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+    .idc-logo-block {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    }
+    .idc-logo-block .idc-text-5 {
+        margin-left: 8px;
+        font-weight: 400;
+        /* font-size: 9px; */
+        font-size: 2.64vw;
+        line-height: 3vw;
+    }
+    .idc-logo {
+        width: 12.2vw;
+    }
+    .idc-head .idc-title-1 {
+        margin-top: 25px;
+        /* font-size: 32px; */
+        /* line-height: 39px; */
+        font-size: 10vw;
+        line-height: 12.2vw;
+    }
+    .idc-head .idc-text-1 {
+        /* font-size: 14px;
+        line-height: 17px; */
+        font-size: 4.5vw;
+        line-height: 5.2vw;
+        margin-top: 5px;
+        max-width: 60vw;
+    }
+    /* ************about************ */
+    .idc-about .idc-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .idc-about .idc-title-2 + .idc-text-4 {
+        margin-top: 20px;
+    }
+    .idc-button-wrapper {
+        margin-top: 40px;
+    }
+    .idc-swiper-block {
+        margin-top: 40px;
+    }
+    .idc-swiper .swiper-slide {
+        height: 116.6vw;
+    }
+    .idc-swiper-pagination {
+        margin-top: 25px;
+    }
+    /* ************counts*********** */
+    .idc-counts .idc-container {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .idc-count {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    /* *************pluses************ */
+    .idc-pluses .idc-container {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .idc-pluses-block {
+        margin-top: 10px;
+    }
+    .idc-pluse {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .idc-pluse .idc-text-3b {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 210px;
+    }
+    .idc-pluse:last-child .idc-text-3b {
+        max-width: 260px;
+    }
+    /* *************location************ */
+    .idc-location .idc-bg-wrapper {
+        background: #211f23;
+        z-index: 0;
+    }
+    .idc-location .idc-bg-wrapper::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: -o-linear-gradient(
+                bottom,
+                rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)
+            ),
+            -o-linear-gradient(
+                179.02deg,
+                #151316 1.02%,
+                rgba(33, 31, 35, 0) 99.37%,
+                rgba(21, 19, 22, 0) 99.37%
+            );
+        background: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15)
+            ),
+            linear-gradient(
+                270.98deg,
+                #151316 1.02%,
+                rgba(33, 31, 35, 0) 99.37%,
+                rgba(21, 19, 22, 0) 99.37%
+            );
+        z-index: 1;
+    }
+    .idc-location .idc-container {
+        padding-top: 80px;
+        height: 1030px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .idc-map,
+    .idc-map-cities {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 320px;
+    }
+    .idc-map-cities {
+        z-index: 2;
+    }
+    .idc-cities {
+        margin-top: 15px;
+    }
+    .idc-region::before {
+        top: 6px;
+    }
+    .idc-region:last-child {
+        margin-left: 0;
+    }
+    .idc-region .idc-text-2 + .idc-text-4 {
+        margin-top: 7px;
+    }
+    /* *************achives ************ */
+    .idc-achives .idc-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .idc-achive .idc-text-3b {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 15px;
+    }
+
+    /* *************footer************ */
+    .idc-footer .idc-container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .idc-footer-img {
+        width: 54.4vw;
+    }
+}
